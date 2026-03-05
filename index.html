@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="fullBody">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header><h1>Portfolio of Gagan</h1>
-       <table border="1">
+    <header><h1 id="heading">Portfolio of Gagan</h1>
+       <table border="1" id="table">
         <tr>
             <td><nav><a href="#AboutMe">
                 About Me
@@ -30,21 +31,22 @@
         </tr>
        </table>
     </header>
+    <br>
     <main>
-    <img src="Gagan_v.JPG" alt="Gagan's photo" height="300px">
+    <img src="Protofolie/Gagan_v.JPG" alt="Gagan's photo" height="300px" id="Gagan_Img">
     <br>
     <section>
         <article id="AboutMe">
     <pre><big><b>About Me:</b></big>
-    I am an 18-year-old Computer Science student specializing in backend systems, scalable 
-    architecture, and offensive cybersecurity. I have solved 270+ algorithmic problems, built 
-    full-stack applications using Java and JDBC, and actively explore networking and security tools 
-    like Wireshark and Nmap. My long-term vision is to combine secure system design with scalable 
+    I am an 18-year-old Computer Science student specializing in <u>backend systems</u>,
+    <u>scalable architecture</u>,and <u>offensive cybersecurity</u>. I have solved <u>270+ algorithmic problems</u>, built 
+    <u>full-stack applications using Java and JDBC</u>, and actively explore <u>networking and security tools</u> 
+    like <u>Wireshark and Nmap</u>. My long-term vision is to combine secure system design with scalable 
     backend engineering.</pre>
     </article>
     <article id="QuickInfo">
-    <p>
-    <big>Quick Info</big>
+    <big id="Quick">Quick Info</big>
+    <p id="qI_block">
        <b>Name:</b> Gagan Vishwanath <br>
        <b>Age:</b> 18 <br>
        <b>Location:</b> Bangalore, India <br>
@@ -56,8 +58,8 @@
     <section>
         <article id="Interests">
     <p>
-     <b>Interests:</b>
-     <ul>
+     <b >Interests:</b>
+     <ul id="Interests_content">
         <li>Data Structures & Algorithms</li>
         <li>Backend Development (Spring Boot, JDBC)</li>
         <li>Cybersecurity (Offensive Security focus)</li>
@@ -172,8 +174,8 @@
     </main>
     <hr>
     <footer id="summary">
-    <h2>Strength Profile</h2>
-        <big><b>Strong Areas:</b></big>
+    <h2 id="sPro">Strength Profile</h2>
+    <div id="storng"><big"><b>Strong Areas:</b></big></div>
         <ul>
             <li>Java</li>
             <li>DSA practice</li>
@@ -181,7 +183,7 @@
             <li>Consistency in LeetCode</li>
             <li>Technical curiosity</li>
         </ul>
-    <p>
+    <p id="Contact">
         <Big>Contact Me:</Big>
         <br>
         <b>LeetCode:</b>
